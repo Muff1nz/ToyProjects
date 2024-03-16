@@ -1,0 +1,25 @@
+# .gitignore for Fortran projects
+
+# Compiled object files
+*.o
+*.mod
+*.exe
+
+# Executables (if you compile directly)
+a.out
+
+# Build directories
+/build/
+/bin/
+/obj/
+
+# IDE-specific files (optional, adjust as needed)
+.vscode/
+.idea/
+
+# Ignore any other temporary or generated files
+*.tmp
+*.bak
+*.swp
+*.swo
+*.DS_Store
